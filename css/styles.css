@@ -92,11 +92,24 @@ h1 {
   height: 250px;
 }
 
+@media (orientation: landscape) {
+  .box-three {
+    width: 50vh;
+    height: 50px;
+  }
+}
+
 .box--four {
   background-color: lightgray;
 
   width: 100px;
   height: 100px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .box--four {
+    background: #ffffff;
+  }
 }
 
 .box--five {
